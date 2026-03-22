@@ -26,25 +26,13 @@
 ## 项目结构
 
 ```
-├── index.html          # 页面入口
-├── css/style.css       # 样式
-├── js/app.js           # 交互与图表逻辑
-├── data/jobs.json      # 职业与评分数据
-├── assets/             # 静态资源（如分享预览图）
-└── .nojekyll           # 用于 GitHub Pages，避免 Jekyll 处理
+├── index.html
+├── css/style.css
+├── js/app.js
+├── data/jobs.json
+├── assets/
+└── .nojekyll
 ```
-
-## 本地运行
-
-在项目根目录启动本地静态服务后，用浏览器访问（勿依赖 `file://`，以免部分环境下数据请求受限）：
-
-```bash
-python3 -m http.server 8080
-```
-
-浏览器打开 `http://localhost:8080`。
-
-若 `index.html` 中内嵌了 `window.__JOB_DATA__`，也可在无服务环境下直接打开页面使用。
 
 ## 数据说明
 
@@ -60,7 +48,7 @@ python3 -m http.server 8080
 | 岗位属性 | `is_digital`，`is_green`（多为「是」/「否」） |
 | 说明文案 | `replace_rationale`，`augment_rationale`，`real_world_rationale`，`impact_rationale` 等 |
 
-更新数据时保持与 `js/app.js` 中读取字段一致即可。
+具体字段以仓库内 `data/jobs.json` 为准。
 
 ## 浏览器与网络
 
