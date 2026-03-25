@@ -63,10 +63,10 @@
 
 如果你已经准备好截图，可以替换为：
 
-```md
-![首页预览](assets/screenshot-home.png)
-![榜单预览](assets/screenshot-ranking.png)
-![对比预览](assets/screenshot-compare.png)
+
+[首页预览](assets/screenshot-home.png)
+[榜单预览](assets/screenshot-ranking.png)
+[对比预览](assets/screenshot-compare.png)
 ```
 
 ---
